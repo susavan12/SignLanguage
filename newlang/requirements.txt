@@ -1,11 +1,5 @@
-numpy
-opencv-python
-tensorflow
-protobuf==6.31.1
-scikit-learn
-pillow
-matplotlib
-numpy==1.26.4
-opencv-python==4.9.0.80
-tensorflow==2.15.0
 streamlit
+numpy==1.26.4
+opencv-python-headless
+tensorflow==2.16.1
+Pillow
