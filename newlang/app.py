@@ -6,8 +6,11 @@ import numpy as np
 import tensorflow as tf
 
 IMG_SIZE = 64
-MODEL_PATH = 'sign_model.h5'
-LABEL_MAP_PATH = 'label_map.json'
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_PATH = os.path.join(BASE_DIR, "sign_model.h5")
+LABEL_MAP_PATH = os.path.join(BASE_DIR, "label_map.json")
 
 
 def open_camera(max_index=4):
